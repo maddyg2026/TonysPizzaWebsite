@@ -72,8 +72,11 @@ nav a:hover {
 
 /* HERO section */
 #our-story img {
-  width: 600px;
+  width: 100%;
+  max-width: 500px;
   height: auto;
+  display: block;
+  margin: 0 auto;
 }
 
 
