@@ -72,10 +72,12 @@ nav a:hover {
 
 /* Main hero container */
 #hero {
-  padding-top:100px;
   position: relative;
-  height: 100vh;
-  width: 100%;  
+  width: 100%;
+  min-height: 100vh;
+  height: auto;
+  padding-top: 120px;
+  padding-bottom: 60px;
   z-index: 1;
 }
 
@@ -85,8 +87,8 @@ nav a:hover {
   position: absolute;
   top: 0;
   left: 0;
-  width: 100vw;            
-  height: 100vh;           
+  width: 100%;
+  height: 100%;
   background: url("Images/hero.jpg") center/cover no-repeat;
   filter: brightness(70%);
   z-index: 0;
@@ -95,26 +97,22 @@ nav a:hover {
 /* Main hero title */
 #hero h1 {
   font-family: "Indie Flower", cursive;
-  position: absolute;
-  top: 40%;
-  left: 50%;
-  transform: translate(-50%, -50%); 
+  position: relative;
+  text-align: center;
   color: white;
   font-size: 120px;
+  margin-top: 200px;
 }
-
 
 /* Hero subtitle */
 #hero p {
   font-family: "Indie Flower", cursive;
-  position: absolute;
-  top: 55%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  position: relative;
+  text-align: center;
   color: white;
   font-size: 40px;
+  margin-top: 20px;
 }
-
 
 /* --------------------
    FOOTER
